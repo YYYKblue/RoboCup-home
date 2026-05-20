@@ -1,0 +1,6 @@
+camera_to_map.py 将相机坐标系三维坐标转至底盘坐标系三维坐标
+camera2base.launch 发布相机与底盘的相对位置关系
+explorer.py 在未提前建图的环境中边建图边导航至目标点周围
+navigator.py 导航至目标点
+best_position.py 在人周围选取面向人的最佳停靠点
+goal_calculator.py 计算机器人面向目标点的导航目标位置和姿态。传入机器人当前位姿和目标点的地图坐标，返回一个新的位姿，使机器人面向目标点并保持一定距离。理论上保证相对位置不变
